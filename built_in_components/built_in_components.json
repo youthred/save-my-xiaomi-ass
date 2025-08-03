@@ -1,0 +1,670 @@
+{
+  "command": {
+    "uninstall": "pm uninstall --user 0 ",
+    "restore": "cmd package install-existing --user 0 "
+  },
+  "components": [
+    {
+      "name": "系统打印服务(Systemprintingservice)",
+      "package": "com.android.bips"
+    },
+    {
+      "name": "BluetoothMIDIService",
+      "package": "com.android.bluetoothmidiservice"
+    },
+    {
+      "name": "BookmarkProvider",
+      "package": "com.android.bookmarkprovider"
+    },
+    {
+      "name": "浏览器(Browser)",
+      "package": "com.android.browser"
+    },
+    {
+      "name": "日历(Calendar)",
+      "package": "com.android.calendar"
+    },
+    {
+      "name": "CallLogBackupRestore",
+      "package": "com.android.calllogbackup"
+    },
+    {
+      "name": "CameraExtensionsProxy",
+      "package": "com.android.cameraextensions"
+    },
+    {
+      "name": "运营商默认应用(CarrierDefaultUnknown)",
+      "package": "com.android.carrierdefault"
+    },
+    {
+      "name": "CellBroadcastService",
+      "package": "com.android.cellbroadcastservice"
+    },
+    {
+      "name": "证书安装程序(CertificateInstaller)",
+      "package": "com.android.certinstaller"
+    },
+    {
+      "name": "配套设备管理器(CompanionDeviceManager)",
+      "package": "com.android.companiondevicemanager"
+    },
+    {
+      "name": "时钟(Clock)",
+      "package": "com.android.deskclock"
+    },
+    {
+      "name": "基本互动屏保(BasicDaydreams)",
+      "package": "com.android.dreams.basic"
+    },
+    {
+      "name": "DynamicSystemUpdates",
+      "package": "com.android.dynsystem"
+    },
+    {
+      "name": "电子邮件(Mail)",
+      "package": "com.android.email"
+    },
+    {
+      "name": "急救信息(Emergencyinformation)",
+      "package": "com.android.emergency"
+    },
+    {
+      "name": "外部存储设备(ExternalStorage)",
+      "package": "com.android.externalstorage"
+    },
+    {
+      "name": "文件管理(FileManager)",
+      "package": "com.android.fileexplorer"
+    },
+    {
+      "name": "HTML查看器(HTMLViewer)",
+      "package": "com.android.htmlviewer"
+    },
+    {
+      "name": "输入设备(InputDevices)",
+      "package": "com.android.inputdevices"
+    },
+    {
+      "name": "工作设置(WorkSetup)",
+      "package": "com.android.managedprovisioning"
+    },
+    {
+      "name": "MmsService",
+      "package": "com.android.mms.service"
+    },
+    {
+      "name": "PacProcessor",
+      "package": "com.android.pacprocessor"
+    },
+    {
+      "name": "打印处理服务(PrintSpooler)",
+      "package": "com.android.printspooler"
+    },
+    {
+      "name": "主屏幕提示(Homescreentips)",
+      "package": "com.android.protips"
+    },
+    {
+      "name": "存储已屏蔽的号码(BlockedNumbersStorage)",
+      "package": "com.android.providers.blockednumber"
+    },
+    {
+      "name": "日历存储(Calendarstorage)",
+      "package": "com.android.providers.calendar"
+    },
+    {
+      "name": "联系人存储(ContactsStorage)",
+      "package": "com.android.providers.contacts"
+    },
+    {
+      "name": "下载管理程序(Downloads)",
+      "package": "com.android.providers.downloads"
+    },
+    {
+      "name": "下载管理(Downloads)",
+      "package": "com.android.providers.downloads.ui"
+    },
+    {
+      "name": "用户字典(UserDictionary)",
+      "package": "com.android.providers.userdictionary"
+    },
+    {
+      "name": "ProxyHandler",
+      "package": "com.android.proxyhandler"
+    },
+    {
+      "name": "搜索(Search)",
+      "package": "com.android.quicksearchbox"
+    },
+    {
+      "name": "SecureElementUnknownlication",
+      "package": "com.android.se"
+    },
+    {
+      "name": "Shell",
+      "package": "com.android.shell"
+    },
+    {
+      "name": "SimUnknownDialog",
+      "package": "com.android.simUnknowndialog"
+    },
+    {
+      "name": "声音(Sounds)",
+      "package": "com.android.soundpicker"
+    },
+    {
+      "name": "录音机(Recorder)",
+      "package": "com.android.soundrecorder"
+    },
+    {
+      "name": "IntentFilterVerificationService",
+      "package": "com.android.statementservice"
+    },
+    {
+      "name": "USIM卡应用(SIMClaro)",
+      "package": "com.android.stk"
+    },
+    {
+      "name": "系统跟踪(SystemTracing)",
+      "package": "com.android.traceur"
+    },
+    {
+      "name": "VpnDialogs",
+      "package": "com.android.vpndialogs"
+    },
+    {
+      "name": "LiveWallpaperPicker",
+      "package": "com.android.wallpaper.livepicker"
+    },
+    {
+      "name": "CatchLog(Loggenerator)",
+      "package": "com.bsp.catchlog"
+    },
+    {
+      "name": "FIDOUAF1.0ASM",
+      "package": "com.fido.asm"
+    },
+    {
+      "name": "FIDOUAF1.0Client",
+      "package": "com.fido.xiaomi.uafclient"
+    },
+    {
+      "name": "Goodix指纹(DelmarFingerprint)",
+      "package": "com.goodix.fingerprint.setting"
+    },
+    {
+      "name": "PrintServiceRecommendationService",
+      "package": "com.google.android.printservice.recommendation"
+    },
+    {
+      "name": "Google通讯录同步(GoogleContactsSync)",
+      "package": "com.google.android.syncadapters.contacts"
+    },
+    {
+      "name": "小米画报(MiWallpaperCarousel)",
+      "package": "com.mfashiongallery.emag"
+    },
+    {
+      "name": "健康(Health)",
+      "package": "com.mi.health"
+    },
+    {
+      "name": "投屏(Cast)",
+      "package": "com.milink.service"
+    },
+    {
+      "name": "钱包(Wallet)",
+      "package": "com.mipay.wallet"
+    },
+    {
+      "name": "小米无障碍(MiAccessibility)",
+      "package": "com.miui.accessibility"
+    },
+    {
+      "name": "小米分析 Analytics",
+      "package": "com.miui.analytics"
+    },
+    {
+      "name": "AudioEffect",
+      "package": "com.miui.audioeffect"
+    },
+    {
+      "name": "录音助手(Recordingassistant)",
+      "package": "com.miui.audiomonitor"
+    },
+    {
+      "name": "用户反馈(Feedback)",
+      "package": "com.miui.bugreport"
+    },
+    {
+      "name": "计算器(Calculator)",
+      "package": "com.miui.calculator"
+    },
+    {
+      "name": "CIT",
+      "package": "com.miui.cit"
+    },
+    {
+      "name": "垃圾清理(Cleaner)",
+      "package": "com.miui.cleanmaster"
+    },
+    {
+      "name": "桌面云备份(Cloudbackup​)",
+      "package": "com.miui.cloudbackup"
+    },
+    {
+      "name": "小米云服务(XiaomiCloud)",
+      "package": "com.miui.cloudservice"
+    },
+    {
+      "name": "CloudServiceSysbase",
+      "package": "com.miui.cloudservice.sysbase"
+    },
+    {
+      "name": "指南针(Compass)",
+      "package": "com.miui.compass"
+    },
+    {
+      "name": "应用程序扩展服务(UnknownlicationExtensionService)",
+      "package": "com.miui.contentcatcher"
+    },
+    {
+      "name": "小爱建议",
+      "package": "com.xiaomi.aireco"
+    },
+    {
+      "name": "广告服务API",
+      "package": "com.android.adservices.api"
+    },
+    {
+      "name": "传送门(Taplus)",
+      "package": "com.miui.contentextension"
+    },
+    {
+      "name": "MIUI质量服务(MIUIDaemon)",
+      "package": "com.miui.daemon"
+    },
+    {
+      "name": "Bokeh",
+      "package": "com.miui.extraphoto"
+    },
+    {
+      "name": "相册(Gallery)",
+      "package": "com.miui.gallery"
+    },
+    {
+      "name": "安全守护服务(FamilyGuard)",
+      "package": "com.miui.greenguard"
+    },
+    {
+      "name": "小米换机(MiMover)",
+      "package": "com.miui.huanji"
+    },
+    {
+      "name": "快应用服务框架(QuickUnknownsServiceFramework)",
+      "package": "com.miui.hybrid"
+    },
+    {
+      "name": "智慧生活(SmartScenes)",
+      "package": "com.miui.hybrid.accessory"
+    },
+    {
+      "name": "维修模式(MaintenanceMode)",
+      "package": "com.miui.maintenancemode"
+    },
+    {
+      "name": "小米相册-编辑(GalleryEditor)",
+      "package": "com.miui.mediaeditor"
+    },
+    {
+      "name": "MediaFeature合集",
+      "package": "com.miui.mediafeature"
+    },
+    {
+      "name": "小米云同步 MiCloudSync",
+      "package": "com.miui.micloudsync"
+    },
+    {
+      "name": "服务与反馈(Services&feedback)",
+      "package": "com.miui.miservice"
+    },
+    {
+      "name": "小米互传(MiShare)",
+      "package": "com.miui.mishare.connectivity"
+    },
+    {
+      "name": "音质音效(Earphones)",
+      "package": "com.miui.misound"
+    },
+    {
+      "name": "壁纸(WallPaper)",
+      "package": "com.miui.miwallpaper"
+    },
+    {
+      "name": "内容中心(ContentCenter)",
+      "package": "com.miui.newhome"
+    },
+    {
+      "name": "小米云盘(MiDrive)",
+      "package": "com.miui.newmidrive"
+    },
+    {
+      "name": "小米支付(NextPay)",
+      "package": "com.miui.nextpay"
+    },
+    {
+      "name": "笔记(Notes)",
+      "package": "com.miui.notes"
+    },
+    {
+      "name": "智能助理(Unknownvault) 负一屏",
+      "package": "com.miui.personalassistant"
+    },
+    {
+      "name": "常用语(Frequentphrases)",
+      "package": "com.miui.phrase"
+    },
+    {
+      "name": "音乐(Music)",
+      "package": "com.miui.player"
+    },
+    {
+      "name": "屏幕录制(ScreenRecorder)",
+      "package": "com.miui.screenrecorder"
+    },
+    {
+      "name": "系统服务组件(Systemserviceplugin)",
+      "package": "com.miui.securityadd"
+    },
+    {
+      "name": "安全核心组件(SecurityCoreComponent)",
+      "package": "com.miui.securitycore"
+    },
+    {
+      "name": "小米安全键盘(MiSecureKeyboard)",
+      "package": "com.miui.securityinputmethod"
+    },
+    {
+      "name": "智能服务(SmartService)",
+      "package": "com.miui.systemAdSolution"
+    },
+    {
+      "name": "三方应用异常分析(ThirdpartyUnknownproblems)",
+      "package": "com.miui.thirdUnknownassistant"
+    },
+    {
+      "name": "悬浮球(Quickball)",
+      "package": "com.miui.touchassistant"
+    },
+    {
+      "name": "小米视频(MiVideo)",
+      "package": "com.miui.video"
+    },
+    {
+      "name": "我的服务(Myservices)",
+      "package": "com.miui.vipservice"
+    },
+    {
+      "name": "全球上网(MiRoaming)",
+      "package": "com.miui.virtualsim"
+    },
+    {
+      "name": "小爱同学(MiAI)",
+      "package": "com.miui.voiceassist"
+    },
+    {
+      "name": "语音唤醒(Wakewithvoice)",
+      "package": "com.miui.voicetrigger"
+    },
+    {
+      "name": "MiuiVpnSdkManager",
+      "package": "com.miui.vpnsdkmanager"
+    },
+    {
+      "name": "MConnService",
+      "package": "com.miui.vsimcore"
+    },
+    {
+      "name": "天气(Weather)",
+      "package": "com.miui.weather2"
+    },
+    {
+      "name": "WMService",
+      "package": "com.miui.wmsvc"
+    },
+    {
+      "name": "生活黄页(Yellowpages)",
+      "package": "com.miui.yellowpage"
+    },
+    {
+      "name": "小米弹屏通知",
+      "package": "com.xiaomi.barrage"
+    },
+    {
+      "name": "textaction",
+      "package": "com.miuix.editor"
+    },
+    {
+      "name": "SystemHelper",
+      "package": "com.mobiletools.systemhelper"
+    },
+    {
+      "name": "WAPI证书(WAPIcertificate)",
+      "package": "com.wapi.wapicertmanage"
+    },
+    {
+      "name": "小米商城系统组件(MiStoreSystemComponents)",
+      "package": "com.xiaomi.ab"
+    },
+    {
+      "name": "AI电话助手 小爱接听",
+      "package": "com.xiaomi.aiasst.service"
+    },
+    {
+      "name": "小爱翻译 AiasstVision",
+      "package": "com.xiaomi.aiasst.vision"
+    },
+    {
+      "name": "火星超级壁纸",
+      "package": "com.miui.miwallpaper.mars"
+    },
+    {
+      "name": "地球超级壁纸",
+      "package": "com.miui.miwallpaper.earth"
+    },
+    {
+      "name": "几何超级壁纸",
+      "package": "com.miui.miwallpaper.geometry"
+    },
+    {
+      "name": "土星超级壁纸",
+      "package": "com.miui.miwallpaper.saturn"
+    },
+    {
+      "name": "MIUIBluetooth",
+      "package": "com.xiaomi.bluetooth"
+    },
+    {
+      "name": "相机标定(CameraTools)",
+      "package": "com.xiaomi.cameratools"
+    },
+    {
+      "name": "digitalkey",
+      "package": "com.xiaomi.digitalkey"
+    },
+    {
+      "name": "驾车场景(MIUIDirveScene)",
+      "package": "com.xiaomi.drivemode"
+    },
+    {
+      "name": "游戏中心(Games)",
+      "package": "com.xiaomi.gamecenter"
+    },
+    {
+      "name": "游戏服务(GameService)",
+      "package": "com.xiaomi.gamecenter.sdk.service"
+    },
+    {
+      "name": "Polaris",
+      "package": "com.xiaomi.gnss.polaris"
+    },
+    {
+      "name": "Joyose 小米云控",
+      "package": "com.xiaomi.joyose"
+    },
+    {
+      "name": "天星金融(AirstarFinance)",
+      "package": "com.xiaomi.jr"
+    },
+    {
+      "name": "游戏相关 Gaming Mi Macro",
+      "package": "com.xiaomi.macro"
+    },
+    {
+      "name": "讯飞输入法-小米版",
+      "package": "com.iflytek.inputmethod.miui"
+    },
+    {
+      "name": "网络位置服务(Networklocationprovider)",
+      "package": "com.xiaomi.metoknlp"
+    },
+    {
+      "name": "小米互联通信服务(MiConnect)",
+      "package": "com.xiaomi.mi_connect_service"
+    },
+    {
+      "name": "游戏高能时刻(MiGameService)",
+      "package": "com.xiaomi.migameservice"
+    },
+    {
+      "name": "小米澎湃AI引擎",
+      "package": "com.xiaomi.aicr"
+    },
+    {
+      "name": "投屏服务(Casting)",
+      "package": "com.xiaomi.miplay_client"
+    },
+    {
+      "name": "MiRCS",
+      "package": "com.xiaomi.mircs"
+    },
+    {
+      "name": "MIUI+Beta版(MIUI+Beta)",
+      "package": "com.xiaomi.mirror"
+    },
+    {
+      "name": "背屏(Reardisplay)",
+      "package": "com.xiaomi.misubscreenui"
+    },
+    {
+      "name": "TAMservice",
+      "package": "com.xiaomi.otrpbroker"
+    },
+    {
+      "name": "米币支付(MiCoin)",
+      "package": "com.xiaomi.payment"
+    },
+    {
+      "name": "耗电检测(PowerDetector)",
+      "package": "com.xiaomi.powerchecker"
+    },
+    {
+      "name": "扫一扫(Scanner)",
+      "package": "com.xiaomi.scanner"
+    },
+    {
+      "name": "SecurityOnetrackService",
+      "package": "com.xiaomi.security.onetrack"
+    },
+    {
+      "name": "小米商城",
+      "package": "com.xiaomi.shop"
+    },
+    {
+      "name": "米家(MiHome)",
+      "package": "com.xiaomi.smarthome"
+    },
+    {
+      "name": "小米社区",
+      "package": "com.xiaomi.vipaccount"
+    },
+    {
+      "name": "小米有品",
+      "package": "com.xiaomi.youpin"
+    },
+    {
+      "name": "设备信息(DeviceInfo)",
+      "package": "com.qti.qualcomm.deviceinfo"
+    },
+    {
+      "name": "QDCM-FF",
+      "package": "com.qti.snapdragon.qdcm_ff"
+    },
+    {
+      "name": "LocationServices",
+      "package": "com.qualcomm.location"
+    },
+    {
+      "name": "CneUnknown",
+      "package": "com.qualcomm.qti.cne"
+    },
+    {
+      "name": "AdrenoGraphicsDrivers",
+      "package": "com.qualcomm.qti.gpudrivers.lahaina.api30"
+    },
+    {
+      "name": "SecCamService",
+      "package": "com.qualcomm.qti.seccamservice"
+    },
+    {
+      "name": "SystemHelperService",
+      "package": "com.qualcomm.qti.services.systemhelper"
+    },
+    {
+      "name": "XRCB",
+      "package": "com.qualcomm.qti.xrcb"
+    },
+    {
+      "name": "WfdService",
+      "package": "com.qualcomm.wfd.service"
+    },
+    {
+      "name": "hplp",
+      "package": "com.qxwz.ps.hpls"
+    },
+    {
+      "name": "aidlserverdemo",
+      "package": "com.rongcard.eidapi"
+    },
+    {
+      "name": "IFAAService",
+      "package": "org.ifaa.aidl.manager"
+    },
+    {
+      "name": "CACertApp",
+      "package": "vendor.qti.hardware.cacert.server"
+    },
+    {
+      "name": "QesdkSysApp",
+      "package": "vendor.qti.qesdk.sysservice"
+    },
+    {
+      "name": "万能遥控(MiRemote)",
+      "package": "com.duokan.phone.remotecontroller"
+    },
+    {
+      "name": "阅读",
+      "package": "com.duokan.reader"
+    },
+    {
+      "name": "小米文档查看器（WPS定制）",
+      "package": "cn.wps.moffice_eng.xiaomi.lite",
+      "safe": true
+    },
+    {
+      "name": "搜狗输入法小米版",
+      "package": "com.sohu.inputmethod.sogou.xiaomi",
+      "safe": true
+    }
+  ]
+}
