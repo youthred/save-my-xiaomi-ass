@@ -21,7 +21,7 @@
    ``` she
    ~> .\adb.exe devices
    List of devices attached
-   3406d1d5	device
+   1234abcd device
    ```
 
 7. 进入 ADB Shell 环境
@@ -48,7 +48,7 @@
    ``` shell
    ~> adb devices
    List of devices attached
-   3406d1d5	device
+   1234abcd	device
    ```
 
 5. 进入 ADB Shell 环境
@@ -89,7 +89,7 @@
    ``` shell
    ~> adb devices
    List of devices attached
-   3406d1d5	device
+   1234abcd	device
    ```
 
 5. 进入 ADB Shell 环境
@@ -98,6 +98,16 @@
    ~> adb shell
    vermeer:/ $
    ```
+
+## 提示 xxxx offline
+
+若显示 `1234abcd	offline` 则说明工具版本过旧
+
+请下载对应平台最新版本
+
+- Windows https://dl.google.com/android/repository/platform-tools-latest-windows.zip
+- Mac https://dl.google.com/android/repository/platform-tools-latest-darwin.zip
+- Linux https://dl.google.com/android/repository/platform-tools-latest-linux.zip
 
 
 # 在手机设置中启用开发者选项和 USB 调试
