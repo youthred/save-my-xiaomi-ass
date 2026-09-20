@@ -9,6 +9,7 @@
 1. 下载并解压 `ADB工具 Android SDK Platform Tools`，然后进入解压后的 platform-tools 文件夹
    - [123网盘](https://www.123912.com/s/iz5Pjv-GeB6d)
    - [本地仓库](platform-tools-latest-windows.zip)
+   - [官方最新](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 
 3. 按住 Shift 键并右键点击空白处，选择 `在此处打开命令窗口` 或 `在此处打开 PowerShell 窗口`
 
